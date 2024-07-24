@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    padding: 0 30px; /* Adjust padding as needed */
+    background-color: white; /* Background color for the navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    position: relative; /* Needed for centering the menu */
+}
+
+.navbar-logo {
+    flex: 0 1 auto; /* Allow logo to take its natural size */
+}
+
+.navbar-menu {
+    flex: 1; /* Allow menu to take up available space */
+    display: flex;
+    justify-content: center; /* Center the menu items */
+}
+
+.navbar-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items in a row */
+    gap: 30px; /* Space between menu items */
+}
+
+.navbar-menu li {
+    margin: 0;
+    padding: 0; /* Remove padding from list items */
+}
+
+.navbar-menu li a {
+    display: block;
+    color: black; /* Text color */
+    text-align: center;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar-menu li a:hover {
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.navbar button {
+
+    
+    border:none;
+    padding: 10px;
+    font-weight: bold;
+    
+    cursor: pointer;
+
+}

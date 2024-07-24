@@ -1,0 +1,55 @@
+/* addpatient.css */
+
+.Patients {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.Patients form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Patients label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.Patients input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.Patients input[type="submit"],
+.Patients input[type="reset"] {
+    padding: 5px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Patients input[type="submit"] {
+    background-color: #007bff;
+}
+.Patients input[type="reset"] {
+    background-color: #dc3545;
+}
+
+.Patients input[type="submit"]:hover {
+    background-color:#0056b3;
+}
+
+.Patients input[type="reset"]:hover {
+    background-color: #c82333;
+}

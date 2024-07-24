@@ -1,0 +1,58 @@
+/* Addrecord.css */
+.Addrecord {
+    padding: 20px;
+  }
+  
+  .Addrecord h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Addrecord form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Addrecord table {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .Addrecord table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .Addrecord input[type="text"],
+  .Addrecord input[type="textarea"],
+  .Addrecord input[type="number"],
+  .Addrecord input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+  }
+  
+  .Addrecord button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Addrecord button:hover {
+    background-color: #45a049;
+  }
+  
+  .Addrecord h3 {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+  }
+  

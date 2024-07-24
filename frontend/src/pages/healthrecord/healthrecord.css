@@ -1,0 +1,17 @@
+/* healthrecord.css */
+.main {
+    
+    justify-content: center;
+    min-height: 100vh; /* Ensure the main div takes the full viewport height */
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.healthrecord {
+    background-color: #f9f9f9; /* Example background color */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    width:50%;
+}
