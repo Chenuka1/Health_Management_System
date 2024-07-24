@@ -25,6 +25,7 @@ function App() {
         <Route path="/healthrecord" element={<Healthrecord/>}/>
         <Route path="/admindashboard" element={<Dashboard/>}/>
         <Route path="/addrecord" element={<Addrecord/>}/>
+        <Route/>
       </Routes>
     </BrowserRouter>
 
